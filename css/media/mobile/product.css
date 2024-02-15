@@ -1,0 +1,57 @@
+.products {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: #2b2b2b;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  gap: 10px;
+  .product {
+    width: 90%;
+    margin: 10px auto;
+    & h1 {
+      text-align: center;
+      color: whitesmoke;
+      margin-bottom: 10px;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    & p {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 50%;
+      margin: 10px auto;
+      white-space: nowrap;
+      font-size: 13px;
+      color: whitesmoke;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin-bottom: 10px;
+    }
+    & img {
+      width: 50%;
+      margin-bottom: 10px;
+      object-fit: cover;
+      display: block;
+      margin: 10px auto;
+    }
+    & a {
+      display: block;
+      width: 100px;
+      height: 30px;
+      margin: 10px auto;
+      background-color: green;
+      text-align: center;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: whitesmoke;
+      line-height: 30px;
+      font-size: 12px;
+      font-weight: bold;
+      transition: 300ms;
+      &:hover {
+        background-color: #5b5b5b;
+      }
+    }
+  }
+}
